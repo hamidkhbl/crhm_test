@@ -6,7 +6,7 @@ files = []
 for i in range(100):
     files.append('sc'+str(i+1)+'.obs')
 
-files = ['sc29.obs', 'sc22.obs', 'sc48.obs', 'sc90.obs', 'sc47.obs', 'sc71.obs', 'sc65.obs', 'sc4.obs', 'sc17.obs', 'sc46.obs', 'sc78.obs', 'sc93.obs', 'sc44.obs', 'sc72.obs', 'sc74.obs', 'sc69.obs', 'sc92.obs', 'sc64.obs', 'sc30.obs', 'sc49.obs', 'sc61.obs', 'sc70.obs', 'sc1.obs', 'sc37.obs', 'sc12.obs', 'sc9.obs', 'sc62.obs', 'sc97.obs', 'sc96.obs', 'sc40.obs', 'sc67.obs', 'sc7.obs', 'sc66.obs', 'sc56.obs', 'sc38.obs', 'sc31.obs', 'sc43.obs', 'sc76.obs']
+#files = ['sc29.obs', 'sc22.obs', 'sc48.obs', 'sc90.obs', 'sc47.obs', 'sc71.obs', 'sc65.obs', 'sc4.obs', 'sc17.obs', 'sc46.obs', 'sc78.obs', 'sc93.obs', 'sc44.obs', 'sc72.obs', 'sc74.obs', 'sc69.obs', 'sc92.obs', 'sc64.obs', 'sc30.obs', 'sc49.obs', 'sc61.obs', 'sc70.obs', 'sc1.obs', 'sc37.obs', 'sc12.obs', 'sc9.obs', 'sc62.obs', 'sc97.obs', 'sc96.obs', 'sc40.obs', 'sc67.obs', 'sc7.obs', 'sc66.obs', 'sc56.obs', 'sc38.obs', 'sc31.obs', 'sc43.obs', 'sc76.obs']
 file_count = len(files)
 same_files = []
 
