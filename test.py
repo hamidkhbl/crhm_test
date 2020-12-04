@@ -1,5 +1,5 @@
 
-#import numpy as np 
+#import numpy as np
 import filecmp
 
 files = []
@@ -22,7 +22,6 @@ while i < file_count:
             if same:
                 same_files.append(files[j])
                 same_files.append(files[i])
-                print
         j+=1
     i+=1
 print(len(set(same_files)))
