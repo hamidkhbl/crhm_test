@@ -1,17 +1,21 @@
 import filecmp
+import os
 from os import listdir
-from os.path import isfile, join
 
-files_dir = 'mac_output/'
+# set your obs files directory here
+files_dir = 'ubuntu_output/'
 
-files = [f for f in listdir(files_dir) if isfile(join(files_dir, f))]
+# Get obs files in the directory
+files = []
+for file in os.listdir(files_dir):
+    if file.endswith(".obs"):
+        files.append(file)
 
 file_count = len(files)
 same_files = []
 all_same_files = []
 
-
-
+# Compare files and make categories
 i = 0
 print('Number of files: ',file_count)
 while i < file_count:
@@ -29,6 +33,6 @@ while i < file_count:
 
 all_same_files = set(tuple(x) for x in all_same_files)
 
-print('There are ', len(all_same_files),' Categorie(s): ')
+print('There are ', len(all_same_files),' Categories: ')
 for i in all_same_files:
     print(i, 'Length: ', len(i))
